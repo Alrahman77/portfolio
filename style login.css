@@ -1,0 +1,161 @@
+body {
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    height: 30px;
+    width: 250px;
+    align-items: center;
+    border: white solid 2px;
+    border-radius: 15px;
+    padding: 5px;  
+    display: inline-block;
+}
+
+header a:hover{
+    background-color: #fff;
+    color: black;
+    transform: scale(0.7s);
+    transition: 0.7s;
+    border-radius: 15px;
+}
+
+.login {
+    margin: 30px 0px;
+    width: 450px;
+    height: 500px;
+    padding: 0px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 120px;
+}
+
+.login h1 {
+    margin: 0;
+    padding: 20px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.login label {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login input {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.login input[type="text"],
+.login input[type="email"],
+.login input[type="password"] {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: #fff 1px solid;
+}
+
+.login input[type="submit"] {
+    background-color: #ffffff52;
+    height: 40px;
+    color: white;
+    border: blueviolet solid 3px;
+    border-radius: 15px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 25px;
+    transition: 0.5s ease;
+
+}
+
+.login input[type="submit"]:hover {
+    background-color: rgba(1, 1, 1, 15%);
+    background-color: blueviolet;
+    color: white;
+}
+
+.login a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width:1024px) {
+    body {
+        background: url(images/background.jpg);
+    }
+
+    .login {
+        width: 600px;
+        height: 700px;
+
+    }
+}
+
+@media (width:768px) {
+
+    .login img {
+        margin-top: 10px;
+        margin-left: 70px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .login h1 {
+        padding: 5px 10px;
+        font-size: 2.3em;
+    }
+}
+
+
+@media (max-width:700px) {
+    body {
+        font-size: 12px;
+        background: url(images/background.jpg);
+        height: 600px;
+        width: 100%;
+    }
+
+    .login {
+        width: 350px;
+        height: 450px;
+        font-size: 8px;
+    }
+
+    .login img {
+        position: relative;
+        bottom: 50px;
+        left: 70px;
+        height: 90px;
+        width: 90px;
+    }
+
+    .login h1 {
+        padding: 5px 10px;
+    }
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cairo';
+    src: url('/cairo-font/Cairo-VariableFont_slnt_wght.woff') format('woff2'),
+        url('/cairo-font/CairoPlay-VariableFont_slnt_wght.woff') format('woff'),
+         url('cairo-font/CairoPlay-VariableFont_slnt,wght.ttf') format('truetype'); /* كإضافة احتياطية */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
